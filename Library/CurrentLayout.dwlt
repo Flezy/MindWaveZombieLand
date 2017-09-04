@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1350
     height: 619
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 681, y: 342}
+  m_MaxSize: {x: 12006, y: 8042}
   vertical: 0
-  controlID: 11
+  controlID: 56
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,14 +114,14 @@ MonoBehaviour:
     y: 348
     width: 941
     height: 271
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 941
     height: 619
-  m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 404, y: 342}
+  m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 12
+  controlID: 57
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 941
     height: 348
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 107
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,10 +333,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 246
+    y: 100
+    width: 701
+    height: 327
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -374,19 +374,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/NeuroSkyAssets/NeuroSkyScripts
+    - Assets/NeuroSkyAssets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/NeuroSkyAssets/NeuroSkyScripts
+  - Assets/NeuroSkyAssets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Levente\Documents\Test2Proj
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: 962a0000
-    m_LastClickedID: 10902
-    m_ExpandedIDs: 00000000ec250000ec2600002c28000052280000102a0000b02a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: ec260000
+    m_LastClickedID: 9964
+    m_ExpandedIDs: 00000000ec25000090260000ec2600002c28000052280000102a0000b02a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -441,7 +441,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: ec280000a6270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -532,21 +532,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e2fbffff00000000
+    m_ExpandedIDs: 52f5feffc2f5feff14f7feff3cfcfeffacfcfefffefdfeffee02ffff5e03ffffb004ffffc018ffff3419ffff861affffd21cffff461dffff9a1effffa026ffffc426ffffcc28ffff4a2bfffffa2bffff4c2dffffb434ffff2c35ffff7e36ffff8a6bffff066cffff606dfffff493ffff6a94ffffba95ffffaebcffff28bdffff7cbeffff50c4fffffac4ffff4ac6ffffe2fbfffff4ffffff0000000072300000829a0000ca0f01001453010016bc0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: NeuroSkyTGCController
+      m_OriginalName: NeuroSkyTGCController
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 159144
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -582,14 +582,14 @@ MonoBehaviour:
     width: 701
     height: 327
   m_SceneLighting: 1
-  lastFramingTime: 2486.6817791727067
+  lastFramingTime: 8113.036881640552
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 40.252224, y: 26.264572, z: 2.8334656}
+    m_Target: {x: -10.44566, y: 21.679747, z: 48.713314}
     speed: 2
-    m_Value: {x: 40.252224, y: 26.264572, z: 2.8334656}
+    m_Value: {x: -10.44566, y: 21.679747, z: 48.713314}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -612,13 +612,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.027047519, y: 0.94365114, z: -0.07974869, w: 0.32004887}
+    m_Target: {x: 0.20921507, y: 0.2676825, z: -0.059665393, w: 0.93862414}
     speed: 2
-    m_Value: {x: 0.027047519, y: 0.94365114, z: -0.07974868, w: 0.32004887}
+    m_Value: {x: 0.20921507, y: 0.2676825, z: -0.059665393, w: 0.93862414}
   m_Size:
-    m_Target: 90.857124
+    m_Target: 64.48163
     speed: 2
-    m_Value: 90.857124
+    m_Value: 64.48163
   m_Ortho:
     m_Target: 0
     speed: 2

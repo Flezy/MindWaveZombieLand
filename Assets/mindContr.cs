@@ -38,12 +38,14 @@ public class mindContr : MonoBehaviour {
     }
     void OnUpdateAttention(int value)
     {
+        cc.setMoveSpeed(5);
         attention1 = value;
         em.sendAttention(value);
-        cc.setMoveSpeed(10);
+        
     }
     void OnUpdateMeditation(int value)
     {
+        cc.setMoveSpeed(10);
         meditation1 = value;
         dirLight.intensity = (float)value / (float)100;
     }
